@@ -1,0 +1,21 @@
+<!--FLASK TEMPLATE BY LATIF YILMAZ-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask - Template</title>
+
+    <link rel="stylesheet" type = "text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Ready To Go!</h1>
+        <h3>Flask Template Made By <a href="https://latifyilmaz.com" target="_blank">Latif Yılmaz</a></h3>
+    </div>
+
+    <img class="astronaut" src="{{ url_for('static', filename='svg/astronaut.svg') }}">
+</body>
+</html>
